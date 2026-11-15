@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFF8E7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pameran_seni_amp_budaya"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#8B3A0F"
+        android:gravity="center"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/formulir_pendaftaran_pengunjung"
+        android:textSize="16sp"
+        android:textColor="#5D4037"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_lengkap"
+        android:textColor="#3E2723"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukkan_nama_lengkap"
+        android:inputType="textPersonName|textCapWords"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usia"
+        android:textColor="#3E2723"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etUsia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukkan_usia_angka"
+        android:inputType="number"
+        android:maxLength="3"
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:id="@+id/btnKirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kirim_data_ke_form"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnInfoEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buka_info_event" />
+
+</LinearLayout>

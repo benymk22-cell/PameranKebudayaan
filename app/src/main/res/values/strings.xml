@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PameranKebudayaan</string>
+    <string name="pameran_seni_amp_budaya"><![CDATA[Pameran Seni & Budaya]]></string>
+    <string name="formulir_pendaftaran_pengunjung">Formulir Pendaftaran Pengunjung</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="masukkan_nama_lengkap">Masukkan nama lengkap</string>
+    <string name="usia">Usia</string>
+    <string name="masukkan_usia_angka">Masukkan usia (angka)</string>
+    <string name="kirim_data_ke_form">Kirim Data ke Form</string>
+    <string name="buka_info_event">Buka Info Event</string>
+    <string name="pendaftaran_berhasil">Pendaftaran Berhasil</string>
+    <string name="kembali_ke_menu_utama">Kembali ke Menu Utama</string>
+</resources>
